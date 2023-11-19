@@ -5,16 +5,16 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '', url: '' },
+    { title: '丰富的写作资源、工具和互动功能', url: '' },
     { title: '', url: '' }
   ],
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享作文',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: '',
-  HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: '',
+  HEO_HERO_TITLE_3: '海量的文章资源',
+  HEO_HERO_TITLE_4: '强大的互动功能',
+  HEO_HERO_TITLE_5: '提高自己的写作水平',
   HEO_HERO_TITLE_LINK: '',
 
   // 英雄区显示三个置顶分类
@@ -29,13 +29,10 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '这是',
+    '海量范文资源',
+    '优质写作指导',
+    '用户友好界面',
   ],
   HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
 
