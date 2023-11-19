@@ -13,12 +13,12 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '作文',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '欢迎来到作文网',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '作文', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '作文网', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '网站包含了丰富的作文范文，涵盖了记叙文、议论文、说明文等不同文体，以及不同年级、不同学科的范文。每一篇范文都配有详细的点评和解析，帮助读者理解范文的优点和不足，从而在自己的写作中加以改进', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.yangjunhe.eu.org', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '作文', // 网站关键词 英文逗号隔开
 
