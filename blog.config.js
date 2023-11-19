@@ -18,7 +18,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '作文网', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '网站包含了丰富的作文范文，涵盖了记叙文、议论文、说明文等不同文体，以及不同年级、不同学科的范文。每一篇范文都配有详细的点评和解析，帮助读者理解范文的优点和不足，从而在自己的写作中加以改进', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '网站包含了丰富的作文范文', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.yangjunhe.eu.org', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '作文', // 网站关键词 英文逗号隔开
 
